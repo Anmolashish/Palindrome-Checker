@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-        <h1 id="heading">Is it a Palinrone?</h1>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="containor">
+      <strong><h1 id="heading">Is it a Palindrome?</h1></strong>
+      <div id="main-game">
+        <p>Enter in text to check for a palindrome:</p>
         <input id="text-input" />
         <button id="check-btn">check</button>
         <div id="result"></div>
-        <script src="js/script.js" async defer></script>
-    </body>
+      </div>
+      <div class="defination">
+        <p style="color: white">
+          <span role="img" aria-label="light-bulb">💡</span>
+          A <i>palindrome</i> is a word or phrase that reads the same backward
+          as forward.
+        </p>
+      </div>
+    </div>
+
+    <script src="js/script.js" async defer></script>
+  </body>
 </html>

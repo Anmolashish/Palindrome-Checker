@@ -7,5 +7,60 @@ body {
 #heading {
   color: white;
   font-size: 40px;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin: 30px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.containor {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#main-game {
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px #0417f1;
+}
+
+#text-input {
+  width: 250px;
+  box-shadow: 0px 2px 0px blueviolet;
+  border: none;
+}
+
+#check-btn {
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 15px;
+}
+
+#result {
+  margin: 5px;
+  font-size: 22px;
+}
+
+.defination {
+  width: min(100vw, 450px);
+  font-size: 1.3rem;
+  min-height: 140px;
+  background-color: #00471b;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
